@@ -88,7 +88,7 @@ header {
 .nav a {
     display: inline-block;
     text-decoration: none;
-    color: var(--neutral-2);
+    color: var(--neutral-3);
 }
 
 .nav a:not(:last-child) {
