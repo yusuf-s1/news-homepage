@@ -1,0 +1,345 @@
+/* css reset from joshwcomeau.com */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+:root {
+    --primary-1: hsl(35, 77%, 62%);
+    --primary-2: hsl(5, 85%, 63%);
+    --neutral-1: hsl(36, 100%, 99%);
+    --neutral-2: hsl(233, 8%, 79%);
+    --neutral-3: hsl(236, 13%, 42%);
+    --neutral-4: hsl(240, 100%, 5%);
+}
+
+body {
+    font-size: 0.932rem;
+    font-family: Inter, sans-serif;
+}
+
+main {
+    padding: 0rem 1rem;
+    max-width: 375px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* header */
+
+header {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: none;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--neutral-2);
+}
+
+.nav a:not(:last-child) {
+    padding-inline-end: 40px;
+}
+
+.nav a:hover {
+    color: var(--primary-1);
+}
+
+a.logo img {
+    width: 43px;
+    height: 28px;
+}
+
+.mob-menu-btn,
+.mob-menu-close {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+/*** mob-menu ***/
+
+.mob-menu {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.mob-menu-inner {
+    max-width: 258px;
+    margin-inline-start: auto;
+    position: relative;
+    top: 0;
+    height: 100%;
+    background-color: var(--neutral-1);
+    padding: 150px 0 0 1.75rem;
+}
+
+.mob-link {
+    text-decoration: none;
+    color: var(--neutral-4);
+    display: block;
+}
+
+.mob-menu-inner a.mob-link:not(:last-child) {
+    margin-block-end: 35px;
+}
+
+.mob-menu-close {
+    position: absolute;
+    top: 28px;
+    right: 21px;
+}
+
+/***  ***/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left-flex-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.left-flex-group h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--neutral-4);
+    line-height: 1;
+}
+
+.left-flex-group div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-flex-group p {
+    margin: 0 0 2rem;
+    color: var(--neutral-3);
+    font-size: 1rem;
+}
+
+.left-flex-group button {
+    width: 185px;
+    padding: 1rem 0;
+    border: none;
+    background-color: var(--primary-2);
+    color: var(--neutral-1);
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.left-flex-group button:hover {
+    background-color: var(--neutral-4);
+}
+
+.right.new {
+    background-color: var(--neutral-4);
+    color: var(--neutral-2);
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem 1.5rem 0;
+}
+
+.right h1 {
+    font-size: 1.25rem;
+    color: var(--primary-1);
+}
+
+.new .news {
+    padding: 2rem 0;
+}
+
+.new .news:not(:first-child) {
+    border-top: 1px solid var(--neutral-3);
+}
+
+.news-heading {
+    font-size: 1.25rem;
+    color: var(--neutral-1);
+    cursor: pointer;
+}
+
+.news-heading:hover {
+    color: var(--primary-1);
+}
+
+.new .news p {
+    color: var(--neutral-2);
+    margin: 0.5rem 0 0;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+/*** sub-news ***/
+
+.sub-news-section {
+    margin: 4rem 0 0;
+    padding-block-end: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sub-news {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.sub-news div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+span.number {
+    font-size: 1.5rem;
+    color: var(--neutral-2);
+    font-weight: 700;
+}
+
+span.heading {
+    color: var(--neutral-4);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+span.heading:hover {
+    color: var(--primary-2);
+}
+
+span.para {
+    font-size: 0.875rem;
+    color: var(--neutral-3);
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        max-width: 1108px;
+        padding: 0;
+    }
+    header {
+        padding: 88px 0 56px;
+    }
+    .nav {
+        display: block;
+    }
+    a.logo img {
+        width: auto;
+        height: auto;
+    }
+    .mob-menu-btn {
+        display: none;
+    }
+    .container {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .left-flex-group {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .left-flex-group h1 {
+        padding-inline-end: 1rem;
+        flex-shrink: 0;
+        width: 10ch;
+        line-height: 1.125;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    .left-flex-group div {
+        flex-grow: 0;
+        flex-basis: 50%;
+        padding-inline-end: 1rem;
+    }
+    .right.new {
+        padding: 1.75rem 1.75rem 0;
+    }
+    .right h1 {
+        font-size: 2rem;
+    }
+    .news-heading {
+        font-size: 1.125rem;
+    }
+    .new .news p {
+        width: 32ch;
+    }
+    .sub-news-section {
+        padding-block-end: 130px;
+        flex-direction: row;
+        gap: 3rem;
+    }
+}
