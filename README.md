@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [news-homepage-flexbox-and-javascript]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/news-homepage-flexbox-and-javascript-MLFVN7fU6o))
+-   Live Site URL: [https://yusuf-s1.github.io/news-homepage/](https://yusuf-s1.github.io/news-homepage/)
 
 ## My process
 
