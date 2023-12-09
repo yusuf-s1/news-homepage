@@ -47,5 +47,5 @@ Users should be able to:
 
 ## Author
 
--   Website - [Add your name here](https://yusufs.w3spaces.com/)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yusfsqrtof)
+-   Website - [yusufsolmaz](https://yusufs.w3spaces.com/)
+-   Frontend Mentor - [@yusfsqrtof](https://www.frontendmentor.io/profile/yusfsqrtof)
